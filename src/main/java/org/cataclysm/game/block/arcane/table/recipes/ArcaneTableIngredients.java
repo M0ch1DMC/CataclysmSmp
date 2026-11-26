@@ -3,6 +3,7 @@ package org.cataclysm.game.block.arcane.table.recipes;
 import lombok.Getter;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
+import org.cataclysm.Cataclysm;
 import org.cataclysm.game.items.CataclysmItems;
 
 @Getter
@@ -12,7 +13,8 @@ public enum ArcaneTableIngredients {
     ARCANE_MACE_RECIPE(CataclysmItems.ARCANE_ROD, new ItemStack(Material.GOLD_BLOCK, 32)),
     CALAMITY_ARMOR_RECIPE(CataclysmItems.CALAMITY_INGOT, new ItemStack(Material.ANCIENT_DEBRIS, 32)),
     MIRAGE_ELYTRA_RECIPE(CataclysmItems.MIRAGE_UPGRADE, new ItemStack(Material.NETHERITE_BLOCK, 32)),
-    MIRAGE_MACE_RECIPE(CataclysmItems.MACE_UPGRADE, new ItemStack(Material.NETHERITE_BLOCK, 32))
+    MIRAGE_MACE_RECIPE(CataclysmItems.MACE_UPGRADE, new ItemStack(Material.NETHERITE_BLOCK, 32)),
+    PARAGON_TOTEM_RECIPE(CataclysmItems.MIRAGE_BLESSING, new ItemStack(Material.NETHERITE_BLOCK, 64))
     ;
 
     private final CataclysmItems upgrader;

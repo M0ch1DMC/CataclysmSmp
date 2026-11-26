@@ -25,8 +25,8 @@ public enum ArcaneTableRecipes {
     CALAMITY_BOOTS_RECIPE(CataclysmItems.CALAMITY_BOOTS, Material.NETHERITE_BOOTS, ArcaneTableIngredients.CALAMITY_ARMOR_RECIPE),
 
     MIRAGE_ELYTRA_RECIPE(CataclysmItems.MIRAGE_ELYTRA, CataclysmItems.BROKEN_ELYTRA.build(), ArcaneTableIngredients.MIRAGE_ELYTRA_RECIPE),
-    MIRAGE_MACE_RECIPE(CataclysmItems.MIRAGE_MACE, CataclysmItems.ARCANE_MACE.build(), ArcaneTableIngredients.MIRAGE_MACE_RECIPE)
-
+    MIRAGE_MACE_RECIPE(CataclysmItems.MIRAGE_MACE, CataclysmItems.ARCANE_MACE.build(), ArcaneTableIngredients.MIRAGE_MACE_RECIPE),
+    PARAGON_TOTEM_RECIPE(CataclysmItems.PARAGON_TOTEM, CataclysmItems.ARCANE_TOTEM.build(), ArcaneTableIngredients.PARAGON_TOTEM_RECIPE)
     ;
 
     private final CataclysmItems result;
